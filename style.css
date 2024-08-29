@@ -4,3 +4,53 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+body{
+    background-color: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    padding: 0px 84px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* header  */
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 47px;
+}
+
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.navigation a{
+    padding: 8px 32px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #262626;
+}
+
+
+.navigation a:hover{
+    background-color: #4CE0D7;
+}
+
+.navigation img{
+    margin-left: 40px;
+}
